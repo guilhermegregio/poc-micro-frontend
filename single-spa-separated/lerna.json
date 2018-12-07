@@ -1,0 +1,4 @@
+{
+  "packages": ["child-one", "child-two", "parent"],
+  "version": "0.0.0"
+}
