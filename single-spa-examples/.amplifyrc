@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "singlespaexamples-20181220143858-authRole",
+            "UnauthRoleArn": "arn:aws:iam::891979636224:role/singlespaexamples-20181220143858-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::891979636224:role/singlespaexamples-20181220143858-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "singlespaexamples-20181220143858-deployment",
+            "UnauthRoleName": "singlespaexamples-20181220143858-unauthRole",
+            "StackName": "singlespaexamples-20181220143858",
+            "StackId": "arn:aws:cloudformation:us-east-1:891979636224:stack/singlespaexamples-20181220143858/cfbe9810-0475-11e9-8653-0a9ef6cbb06a"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "singlespaexamples-20181220143858-authRole",
+			"UnauthRoleArn": "arn:aws:iam::891979636224:role/singlespaexamples-20181220143858-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::891979636224:role/singlespaexamples-20181220143858-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "singlespaexamples-20181220143858-deployment",
+			"UnauthRoleName": "singlespaexamples-20181220143858-unauthRole",
+			"StackName": "singlespaexamples-20181220143858",
+			"StackId": "arn:aws:cloudformation:us-east-1:891979636224:stack/singlespaexamples-20181220143858/cfbe9810-0475-11e9-8653-0a9ef6cbb06a"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/singlespaexamples-20181220143858-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-20T16:41:28.343Z",
+			"output": {
+				"S3BucketSecureURL": "https://singlespaexamples-20181220144007-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://singlespaexamples-20181220144007-hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "singlespaexamples-20181220144007-hostingbucket"
+			},
+			"lastPushDirHash": "diNnBLfSvf8f3yqcryb2nGQYVMI="
+		}
+	}
+}

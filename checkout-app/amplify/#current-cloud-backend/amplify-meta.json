@@ -1,0 +1,32 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "checkoutapp-20181219153127-authRole",
+			"UnauthRoleArn": "arn:aws:iam::891979636224:role/checkoutapp-20181219153127-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::891979636224:role/checkoutapp-20181219153127-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "checkoutapp-20181219153127-deployment",
+			"UnauthRoleName": "checkoutapp-20181219153127-unauthRole",
+			"StackName": "checkoutapp-20181219153127",
+			"StackId": "arn:aws:cloudformation:us-east-1:891979636224:stack/checkoutapp-20181219153127/f9cf1c00-03b3-11e9-acd0-0a52d71b881a"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/checkoutapp-20181219153127-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-12-19T17:33:27.675Z",
+			"output": {
+				"S3BucketSecureURL": "https://checkoutapp-20181219153210-hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://checkoutapp-20181219153210-hostingbucket.s3-website-us-east-1.amazonaws.com",
+				"Region": "us-east-1",
+				"HostingBucketName": "checkoutapp-20181219153210-hostingbucket"
+			},
+			"lastPushDirHash": "9lbNDqlwfnwE8DFsS/3XjDaEFwk="
+		}
+	}
+}

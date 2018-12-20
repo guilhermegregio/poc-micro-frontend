@@ -1,0 +1,20 @@
+{
+    "projectName": "singlespaexamples",
+    "projectPath": "/home/guilherme/Projects/poc-micro-frontend/single-spa-examples",
+    "defaultEditor": "vim",
+    "frontendHandler": {
+        "javascript": "/home/guilherme/.nvm/versions/node/v11.5.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-frontend-javascript"
+    },
+    "javascript": {
+        "framework": "none",
+        "config": {
+            "SourceDir": "src",
+            "DistributionDir": "dist",
+            "BuildCommand": "npm run-script build",
+            "StartCommand": "npm run-script start"
+        }
+    },
+    "providers": {
+        "awscloudformation": "/home/guilherme/.nvm/versions/node/v11.5.0/lib/node_modules/@aws-amplify/cli/node_modules/amplify-provider-awscloudformation"
+    }
+}

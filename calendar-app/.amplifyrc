@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "calendarapp-20181219153027-authRole",
+            "UnauthRoleArn": "arn:aws:iam::891979636224:role/calendarapp-20181219153027-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::891979636224:role/calendarapp-20181219153027-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "calendarapp-20181219153027-deployment",
+            "UnauthRoleName": "calendarapp-20181219153027-unauthRole",
+            "StackName": "calendarapp-20181219153027",
+            "StackId": "arn:aws:cloudformation:us-east-1:891979636224:stack/calendarapp-20181219153027/d5ffef20-03b3-11e9-ab55-0e0c84e5bae6"
+        }
+    }
+}
