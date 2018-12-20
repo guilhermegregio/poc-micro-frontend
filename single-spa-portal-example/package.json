@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "scripts": {
+    "postinstall": "lerna bootstrap",
     "watch": "run-p watch:*",
     "watch:parent": "lerna run watch --scope single-spa-parent-app",
     "watch:apps": "lerna run watch:portal --ignore single-spa-parent-app --parallel"
